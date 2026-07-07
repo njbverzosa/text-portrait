@@ -1,0 +1,39 @@
+
+/* Reset basic margins */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: #080101;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .text-portrait {
+        width: 100vw;
+        height: 100vh;
+        padding: 20px;
+        font-family: 'Arial Black', sans-serif;
+        font-size: 12px;
+        line-height: 1.2;
+        text-align: justify;
+        word-break: break-all;
+        background-image: url('corinanj.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+
+    .text-portrait p {
+        margin-bottom: 0;
+        display: inline;
+    }
